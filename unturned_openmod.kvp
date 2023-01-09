@@ -1,8 +1,8 @@
-Meta.DisplayName=Unturned
-Meta.Description=Unturned 3 Dedicated Server
+Meta.DisplayName=Unturned (OpenMod)
+Meta.Description=Unturned 3 Dedicated Server (OpenMod)
 Meta.OS=Windows, Linux
 Meta.Arch=x86_64
-Meta.Author=Greelan
+Meta.Author=ICELABS.IO, Greelan
 Meta.URL=https://smartlydressedgames.com/#unturned
 Meta.DisplayImageSource=url:https://cdn.cloudflare.steamstatic.com/steam/apps/304930/library_hero.jpg?t=1613683705
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$ApplicationPort1}
