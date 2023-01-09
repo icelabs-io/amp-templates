@@ -16,7 +16,7 @@
         "UpdateStageName":"Main Config File Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/unturnedconfigfile.dat",
+        "UpdateSourceData":"https://raw.githubusercontent.com/icelabs-io/amp/main/unturnedconfigfile_openmod.dat",
         "UpdateSourceArgs":"Commands.dat",
         "UpdateSourceTarget":"{{$FullBaseDir}}Servers/Unturned/Server/",
         "OverwriteExistingFiles":false
@@ -25,7 +25,7 @@
         "UpdateStageName":"Workshop Config File Download",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
-        "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/unturnedworkshopconfig.json",
+        "UpdateSourceData":"https://raw.githubusercontent.com/icelabs-io/amp/main/unturnedworkshopconfig_openmod.json",
         "UpdateSourceTarget":"{{$FullInstanceDir}}",
         "OverwriteExistingFiles":true
     },
