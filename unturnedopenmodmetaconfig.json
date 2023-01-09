@@ -10,7 +10,7 @@
         "ConfigFile": "Servers/Unturned/WorkshopDownloadConfig.json", 
         "AutoMap": true,
         "ConfigType": "template",
-        "ConfigFileTemplate": "unturnedworkshopconfig_openmod.json"
+        "ConfigFileTemplate": "unturnedopenmodworkshopconfig.json"
     },
     {
         "ConfigFile": "Servers/Unturned/Rocket/Rocket.config.xml", 
