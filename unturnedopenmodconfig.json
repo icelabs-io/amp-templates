@@ -28,28 +28,28 @@
         "EnumValues":{}
     },
     {
-        "DisplayName": "RCON Port",
+        "DisplayName": "Rocket RCON Port",
         "Category": "Server Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "$RemoteAdminPort",
         "InputType": "number",
         "IsFlagArgument": false,
-        "Hidden": true,
+        "Hidden": false,
         "ParamFieldName": "/RocketSettings/RCON/@Port",
         "IncludeInCommandLine": false,
         "DefaultValue": "27115",
         "EnumValues":{}
     },
     {
-        "DisplayName": "RCON Password",
+        "DisplayName": "Rocket RCON Password",
         "Category": "Server Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "$RemoteAdminPassword",
         "InputType": "text",
         "IsFlagArgument": false,
-        "Hidden":true,
+        "Hidden": false,
         "ParamFieldName": "/RocketSettings/RCON/@Password",
         "IncludeInCommandLine": false,
         "EnumValues":{}
@@ -64,7 +64,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "Name",
         "IncludeInCommandLine": false,
-        "DefaultValue": "AMP Powered Unturned Server",
+        "DefaultValue": "Unturned Server",
         "EnumValues":{}
     },
     {
