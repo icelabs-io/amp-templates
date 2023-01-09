@@ -19,7 +19,7 @@
         "Description": "",
         "Keywords": "",
         "FieldName": "RCONEnabled",
-        "InputType": "number",
+        "InputType": "text",
         "IsFlagArgument": false,
         "Hidden": false,
         "ParamFieldName": "/RocketSettings/RCON/@Enabled",
