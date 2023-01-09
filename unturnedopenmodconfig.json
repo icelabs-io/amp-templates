@@ -19,13 +19,16 @@
         "Description": "",
         "Keywords": "",
         "FieldName": "RCONEnabled",
-        "InputType": "text",
+        "InputType": "enum",
         "IsFlagArgument": false,
         "Hidden": false,
         "ParamFieldName": "/RocketSettings/RCON/@Enabled",
         "IncludeInCommandLine": false,
         "DefaultValue": "true",
-        "EnumValues":{}
+        "EnumValues": {
+            "true": "true",
+            "false": "false"
+        }
     },
     {
         "DisplayName": "Rocket RCON Port",
