@@ -31,30 +31,28 @@
         }
     },
     {
-        "DisplayName": "RCON Port",
+        "DisplayName": "Rocket RCON Port",
         "Category": "Server Settings",
-        "Description": "Configure OpenMod to match this port on srcds RCON.",
+        "Description": "",
         "Keywords": "",
         "FieldName": "$RemoteAdminPort",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "$RemoteAdminPort",
         "Hidden": false,
         "IncludeInCommandLine": false,
+        "DefaultValue": "27115",
         "EnumValues":{}
     },
     {
-        "DisplayName": "RCON Password",
+        "DisplayName": "Rocket RCON Password",
         "Category": "Server Settings",
-        "Description": "Set to match be the username:password in OpenMod's srcds RCON configuration.",
+        "Description": "",
         "Keywords": "",
         "FieldName": "$RemoteAdminPassword",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "$RemoteAdminPassword",
         "Hidden": false,
         "IncludeInCommandLine": false,
-        "DefaultValue": "username:password",
         "EnumValues":{}
     },
     {
