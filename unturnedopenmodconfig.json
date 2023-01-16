@@ -39,8 +39,9 @@
         "InputType": "number",
         "IsFlagArgument": false,
         "Hidden": false,
+        "ParamFieldName": "/RocketSettings/RCON/@Port",
         "IncludeInCommandLine": false,
-        "DefaultValue": "27115",
+        "DefaultValue": "",
         "EnumValues":{}
     },
     {
@@ -52,6 +53,7 @@
         "InputType": "text",
         "IsFlagArgument": false,
         "Hidden": false,
+        "ParamFieldName": "/RocketSettings/RCON/@Password",
         "IncludeInCommandLine": false,
         "EnumValues":{}
     },
