@@ -16,7 +16,7 @@
     {
         "DisplayName": "Enable Rocket RCON",
         "Category": "Server Settings",
-        "Description": "If using OpenMod, leave this off and use OpenMod's srcds RCON instead.",
+        "Description": "",
         "Keywords": "",
         "FieldName": "RCONEnabled",
         "InputType": "enum",
@@ -24,7 +24,7 @@
         "Hidden": false,
         "ParamFieldName": "/RocketSettings/RCON/@Enabled",
         "IncludeInCommandLine": false,
-        "DefaultValue": "false",
+        "DefaultValue": "true",
         "EnumValues": {
             "true": "true",
             "false": "false"
@@ -41,18 +41,18 @@
         "Hidden": false,
         "ParamFieldName": "/RocketSettings/RCON/@Port",
         "IncludeInCommandLine": false,
-        "DefaultValue": "",
+        "DefaultValue": "27115",
         "EnumValues":{}
     },
     {
-        "DisplayName": "Rocket RCON Password",
+        "DisplayName": "RCON Password",
         "Category": "Server Settings",
         "Description": "",
         "Keywords": "",
         "FieldName": "$RemoteAdminPassword",
         "InputType": "text",
         "IsFlagArgument": false,
-        "Hidden": false,
+        "Hidden": true,
         "ParamFieldName": "/RocketSettings/RCON/@Password",
         "IncludeInCommandLine": false,
         "EnumValues":{}
@@ -67,7 +67,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "Name",
         "IncludeInCommandLine": false,
-        "DefaultValue": "Unturned Server",
+        "DefaultValue": "AMP Powered Unturned Server",
         "EnumValues":{}
     },
     {
